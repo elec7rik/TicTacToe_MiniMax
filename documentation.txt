@@ -1,0 +1,16 @@
+Introduction:
+This project is based on MINIMAX algorithm applied to the game of TicTacToe. It also has a PVP mode.
+It uses MINIMAX to create an AI agent that is unbeatable.
+TicTacToe is a game that can end in either one of the players winning or the game may end in a draw.
+Considering the two players to be O(Circle) & X(Cross).
+X starts the game.
+Considering X to be the Maximizer and O to be the Minimizer.
+Maximizer - has to maximize the evaluation/score.
+Minimizer - has to minimize the evaluation/score.
+The game is considered to be drawn if the evaluation at a 'terminal state' is 0.
+Terminal states are the states of a game where no legal moves can be made any further.
+The game ends when it reaches a terminal state.
+
+MINIMAX algorithm:
+It is an algorithm which computes all the possible paths to the terminal position in a game tree from any current position.
+Minimizer and Maximizer take turns one by one and try to make a move that improve their evaluation.
